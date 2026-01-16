@@ -1,0 +1,31 @@
+:root {
+  --bg-primary: #0a1929;
+  --bg-secondary: #0f2138;
+  --text-primary: #e4eaf2;
+  --text-secondary: #a0b3c8;
+  --text-tertiary: #6b8299;
+  --accent-primary: #64b5f6;
+  --accent-hover: #90caf9;
+  --accent-glow: rgba(100, 181, 246, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Instrument Sans', -apple-system, system-ui, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-secondary);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--accent-glow);
+  color: var(--accent-hover);
+}
