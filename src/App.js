@@ -55,12 +55,7 @@ function App() {
           
           <footer className="footer">
             <p>
-              Designed in <a href="#" className="inline-link">Figma</a> and built with{' '}
-              <a href="https://react.dev" className="inline-link" target="_blank" rel="noopener noreferrer">React</a>.
-              Inspired by{' '}
-              <a href="https://brittanychiang.com" className="inline-link" target="_blank" rel="noopener noreferrer">
-                Brittany Chiang
-              </a>.
+              Designed and built with React, CSS, and JavaScript.
             </p>
           </footer>
         </div>
