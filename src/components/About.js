@@ -5,21 +5,12 @@ const About = () => {
     <section id="about">
       <h3>About</h3>
       <p>
-        About paragraph 1. This is where you introduce yourself and talk about your passion for creating meaningful digital experiences. Your work sits at the crossroads of design and engineering, where thoughtful aesthetics meet clean, performant code.
+      I am currently a third year Computer Science and Economics Major at Northeastern University who is interested in Full-Stack Development, Fintech, and Machine Learning. I have experience working with many languages and frameworks, and I am always looking to gain more experience. Please feel free to contact me at connorpkarr@gmail.com if you are interested in my website!
       </p>
       <p>
-        About paragraph 2. Currently, you're focused on building accessible, user-centric interfaces at{' '}
-        <a href="#" className="inline-link">Company Name</a>, where you lead frontend development for their design system. You work closely with designers and product teams to create components that are both beautiful and built to last.
-      </p>
+      I have professional experience working on large-scale backend systems in a production engineering environment. During my six-month co-op as a Fintech Backend Engineer at Priceline, I worked on financial transaction services and backend microservices, building and testing REST APIs, validating data flows with SQL, and improving core validation logic to support reliable, high-volume booking systems.      </p>
       <p>
-        About paragraph 3. Previously, you've had the pleasure of building software for{' '}
-        <a href="#" className="inline-link">startups</a>,{' '}
-        <a href="#" className="inline-link">creative agencies</a>, and{' '}
-        <a href="#" className="inline-link">product studios</a>. Along the way, you've explored everything from React Native apps to design systems, always with an eye toward craft and usability.
-      </p>
-      <p>
-        About paragraph 4. When you're not coding, you'll find yourself exploring new interests, reading about your field, or tinkering with side projects that scratch creative itches.
-      </p>
+      In the past, I have worked in teaching and mentorship roles in computer science, including as a Senior Counselor at SummerTech at Purchase College and a remote coding tutor with Coditum and Wyzant. I taught students across skill levels using project-based learning in languages such as Java, Python, React, HTML, CSS, and JavaScript, while supporting diverse learners and mentoring junior instructors.      </p>
     </section>
   );
 };

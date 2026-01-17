@@ -3,26 +3,45 @@ import './Experience.css';
 
 const Experience = () => {
   const experiences = [
-    {
-      period: '2022 — Present',
-      title: 'Job Title 1',
-      company: 'Company Name 1',
-      description: 'Job description 1. This is where you describe your role and responsibilities. Include key achievements, technologies you worked with, and the impact you made on the team and product.',
-      skills: ['Skill 1', 'Skill 2', 'Skill 3', 'Skill 4', 'Skill 5']
+      {
+      period: 'July 2025 — December 2025',
+      title: 'Fintech Software Engineer',
+      company: 'Priceline · Booking Holdings Inc.',
+      description: 'Worked on production backend systems supporting large-scale financial transactions for Priceline’s booking platform. Collaborated with a small engineering team to enhance transaction monitoring microservices, develop REST APIs for validation and error segmentation workflows, and improve data integrity through SQL-driven analysis and testing. Contributed to system reliability and streamlined financial reconciliation processes across multiple booking platforms and payment processors.',
+      skills: ['Java', 'REST APIs', 'SQL', 'Postman', 'DBeaver', 'Microservices'],
+      link: 'https://www.priceline.com/'
     },
     {
-      period: '2019 — 2022',
-      title: 'Job Title 2',
-      company: 'Company Name 2',
-      description: 'Job description 2. Describe your responsibilities, the projects you worked on, and the technologies you used. Highlight any notable achievements or contributions to the company\'s success.',
-      skills: ['Skill 1', 'Skill 2', 'Skill 3', 'Skill 4', 'Skill 5']
+      period: 'June 2020 — August 2024',
+      title: 'Senior Counselor',
+      company: 'SummerTech at Purchase College',
+      description: 'Taught middle school students Java and Python programming, guiding learners from foundational concepts to more advanced data structures and logic. Supervised junior counselors, supported students with learning and social disabilities, and documented academic and social progress through detailed evaluations. Focused on creating an inclusive and structured learning environment while developing leadership and communication skills.',
+      skills: ['Java', 'Python', 'Teaching', 'Mentorship', 'Leadership', 'Curriculum Development'],
+      link: 'https://www.summertech.net/'
     },
     {
-      period: '2018 — 2019',
-      title: 'Job Title 3',
-      company: 'Company Name 3',
-      description: 'Job description 3. Talk about your role, the challenges you faced, and how you contributed to the team\'s goals. Include specific examples of your work and the technologies you mastered.',
-      skills: ['Skill 1', 'Skill 2', 'Skill 3']
+      period: 'May 2024 — Present',
+      title: 'Coding Tutor',
+      company: 'Coditum & Wyzant',
+      description: 'Mentor students through individualized, project-based coding instruction across a range of programming languages and experience levels. Emphasize strong fundamentals while helping students apply concepts through hands-on projects and real-world problem solving in web development and software engineering.',
+      skills: ['JavaScript', 'React', 'Python', 'HTML', 'CSS', 'Lua'],
+      link: 'https://www.wyzant.com/'
+    },
+    {
+      period: 'January 2025 — Present',
+      title: 'Tech Consulting Foundations Member',
+      company: 'TAMID at Northeastern',
+      description: 'Built a responsive news platform for TAMID, developing the frontend with React and implementing backend APIs using Flask and MySQL. Focused on clean UI design, data-driven content management, and full-stack integration to support student-led consulting initiatives.',
+      skills: ['React', 'Flask', 'MySQL', 'Full-Stack Development', 'API Design'],
+      link: 'https://www.nutamid.org/tech-consulting'
+    },
+    {
+      period: 'September 2024 — January 2025',
+      title: 'Web Development Team Member',
+      company: 'Northeastern Electric Racing',
+      description: 'Contributed to the development of Finishline, a project and team management platform for a collegiate electric racing team. Worked collaboratively to improve features for tracking deadlines, progress, and technical developments, supporting better coordination across subteams.',
+      skills: ['Web Development', 'JavaScript', 'Team Collaboration', 'UI Development'],
+      link: 'https://electricracing.northeastern.edu/'
     }
   ];
 
@@ -31,7 +50,13 @@ const Experience = () => {
       <h3>Experience</h3>
       
       {experiences.map((exp, index) => (
-        <div key={index} className="experience-item">
+        <a
+          key={index}
+          href={exp.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="experience-item"
+        >
           <div className="experience-header">
             <div className="experience-period">{exp.period}</div>
             <div className="experience-title">
@@ -44,10 +69,15 @@ const Experience = () => {
               </div>
             </div>
           </div>
-        </div>
+        </a>
       ))}
 
-      <a href="#" className="archive-link">
+      <a 
+        href="/resume.pdf" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        className="archive-link"
+      >
         View Full Resume →
       </a>
     </section>
