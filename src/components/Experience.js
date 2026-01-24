@@ -28,20 +28,13 @@ const Experience = () => {
       link: 'https://www.wyzant.com/'
     },
     {
-      period: 'January 2025 —\nPresent',
-      title: 'Tech Consulting Foundations Member',
-      company: 'TAMID at Northeastern',
-      description: 'Built a responsive news platform for TAMID, developing the frontend with React and implementing backend APIs using Flask and MySQL. Focused on clean UI design, data-driven content management, and full-stack integration to support student-led consulting initiatives.',
-      skills: ['React', 'Flask', 'MySQL', 'Full-Stack Development', 'API Design'],
+      period: 'January 2025 — Present',
+      title: 'Tech Consulting Developer',
+      company: 'TAMID Group at Northeastern University',
+      location: 'Boston, MA',
+      description: 'Developed a full-stack internal news platform using React, Express, and MongoDB to improve chapter-wide communication. Integrated real-time stock and weather APIs with Axios and designed a modular backend schema to support scalable content management, collaborating in a 3-person agile team using Git and GitHub.',
+      skills: ['React', 'Express', 'MongoDB', 'Axios', 'Full-Stack Development', 'API Integration', 'Git', 'Agile'],
       link: 'https://www.nutamid.org/tech-consulting'
-    },
-    {
-      period: 'September 2024 —\nJanuary 2025',
-      title: 'Web Development Team Member',
-      company: 'Northeastern Electric Racing',
-      description: 'Contributed to the development of Finishline, a project and team management platform for a collegiate electric racing team. Worked collaboratively to improve features for tracking deadlines, progress, and technical developments, supporting better coordination across subteams.',
-      skills: ['Web Development', 'JavaScript', 'Team Collaboration', 'UI Development'],
-      link: 'https://electricracing.northeastern.edu/'
     }
   ];
 

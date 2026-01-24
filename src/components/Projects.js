@@ -2,7 +2,26 @@ import React from 'react';
 import './Projects.css';
 
 const Projects = () => {
-  const projects = [{
+  const projects = [
+  {
+    name: 'QuantumWealth',
+    description: 'Built a full-stack portfolio risk analysis platform that uses Monte Carlo simulation to forecast long-term multi-asset investment outcomes. Implemented statistical risk models including Value at Risk, Conditional VaR, Sharpe ratio, and volatility through a RESTful Express API, and developed an interactive React interface with dynamic parameter controls and data visualizations to support portfolio rebalancing and risk evaluation.',
+    technologies: ['React', 'Node.js', 'Express', 'Recharts', 'Tailwind CSS', 'Framer Motion'],
+    link: 'https://github.com/Connor-Karr/QuantumWealth'
+  },
+  {
+    name: 'Drawdle',
+    description: 'Developed a full-stack daily drawing web application with secure user authentication, persistent drawing storage, and prompt-based content delivery. Built a responsive HTML5 Canvas drawing interface with real-time rendering and touch support, and implemented a modular Node.js backend with JWT authentication, encrypted credentials, and a normalized SQL database for scalable deployment.',
+    technologies: ['Node.js', 'Express', 'HTML5 Canvas', 'SQL', 'JWT', 'JavaScript'],
+    link: 'https://github.com/Connor-Karr/Drawdle'
+  },
+  {
+    name: 'Netflix Watch Party Organizer',
+    description: 'Created a machine-learning–driven web application that clusters streaming content into personalized playlists using K-Means clustering. Engineered feature-rich content representations, applied dimensionality reduction to preserve variance, and exposed playlist generation through a Flask-based REST API to deliver near-instant recommendations and significantly reduce content discovery time.',
+    technologies: ['Python', 'Flask', 'Scikit-learn', 'SQLite', 'JavaScript'],
+    link: 'https://github.com/Connor-Karr/Netflix-Watch-Party-Organizer'
+  },
+  {
     name: 'TAMID News Platform',
     description: 'Contributed to a full-stack news platform with separate producer and consumer interfaces, supporting article creation, editing, tagging, search, and pagination. Worked across authentication, content management, and UI features using a containerized Flask-based architecture.',
     technologies: ['Flask', 'MySQL', 'Jinja2', 'HTML', 'CSS', 'JavaScript', 'Docker'],
@@ -13,18 +32,6 @@ const Projects = () => {
     description: 'Developed a data-driven mobile application that combines fridge inventory tracking, personalized nutrition goals, and dynamic recipe recommendations to reduce food waste and decision fatigue. The system adapts suggestions based on real-time inventory and evolving user preferences.',
     technologies: ['Mobile App Design', 'Data Modeling', 'Nutrition Tracking', 'UI/UX'],
     link: 'https://github.com/Connor-Karr/25S-Fridge-Friend'
-  },
-  {
-    name: 'Drawdle',
-    description: 'Built a full-stack daily drawing web application inspired by Wordle that allows users to create, save, and manage drawings through a secure backend. Designed an interactive drawing interface using the HTML5 Canvas API and implemented authenticated frontend–backend communication with persistent SQL storage.',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'SQL', 'Figma', 'Canvas API'],
-    link: 'https://github.com/Connor-Karr/Drawdle'
-  },
-  {
-    name: 'Cavity Risk Analysis Program',
-    description: 'Created a Python-based Bayesian analysis tool to model cavity risk using behavioral and genetic factors. Visualized probabilistic insights and correlations to improve interpretability of risk predictions.',
-    technologies: ['Python', 'SQL', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn'],
-    link: 'https://colab.research.google.com/drive/1VOmCPpnzG8mk0w-AsnRym_ctdDfg7aku?authuser=1'
   }
   ];
 
